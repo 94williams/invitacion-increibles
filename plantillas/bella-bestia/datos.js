@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "bella-bestia",
   "nombre": "Camila",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Sé parte de esta historia",
     "mensaje": "Hay días que guardamos como un tesoro. Este será uno de ellos: un cumpleaños lleno de cariño, pequeños detalles y la alegría de tenerte cerca. Las puertas de nuestro castillo se abren para ti.",
     "galeriaTitulo": "Tesoros de nuestra historia",
-    "fraseFinal": "La magia más bonita es compartir."
+    "fraseFinal": "La magia más bonita es compartir.",
+    "escenarioTitulo": "Toda historia tiene su biblioteca.",
+    "escenarioBajada": "Entre páginas, luz de velas y una rosa inolvidable, guardamos un nuevo capítulo para compartir contigo.",
+    "fechaTitulo": "Una noche en el salón de baile",
+    "ubicacionTitulo": "El castillo abre sus puertas.",
+    "rsvpTitulo": "Un lugar en nuestra mesa",
+    "rsvpMensaje": "Tu presencia iluminará esta celebración. Dinos cuántos lugares reservamos para ti y tu familia."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Un detalle de oro",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "La mesa del gran baile · Imagen de ejemplo de La Bella y la Bestia",
+      "titulo": "La mesa del gran baile",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "La magia de celebrar",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "Nuestra biblioteca · Imagen de ejemplo de La Bella y la Bestia",
+      "titulo": "Nuestra biblioteca",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "La mesa del castillo",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "Tesoros por descubrir",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Una dulce historia",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "El jardín de la rosa · Imagen de ejemplo de La Bella y la Bestia",
+      "titulo": "El jardín de la rosa",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "La Bella y la Bestia · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Biblioteca de castillo iluminada por velas"
   }
 };

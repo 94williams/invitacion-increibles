@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "princesas",
   "nombre": "Isabella",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Queridos invitados",
     "mensaje": "En un reino lleno de cariño, los días se cuentan en sonrisas. Hoy comienza mi capítulo número {edadPalabra} y quiero escribirlo junto a las personas que más quiero. Será un honor celebrar contigo.",
     "galeriaTitulo": "Pequeños capítulos, grandes recuerdos",
-    "fraseFinal": "Y celebraron felices, juntos."
+    "fraseFinal": "Y celebraron felices, juntos.",
+    "escenarioTitulo": "El mapa de nuestro cuento.",
+    "escenarioBajada": "Cruza el jardín, guarda la fecha del baile y encuentra tu lugar en una historia que será más bonita contigo.",
+    "fechaTitulo": "Se anuncia un gran baile",
+    "ubicacionTitulo": "Las puertas del reino te esperan.",
+    "rsvpTitulo": "Tu nombre en este cuento",
+    "rsvpMensaje": "La historia estará completa cuando estés aquí. Confirma tu asistencia y la de tus acompañantes."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Un pastel de cuento",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "Un dulce del reino · Imagen de ejemplo de Princesas Disney",
+      "titulo": "Un dulce del reino",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "Colores encantados",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "El camino al castillo · Imagen de ejemplo de Princesas Disney",
+      "titulo": "El camino al castillo",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "La mesa del reino",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "Pequeños tesoros",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Dulces de fantasía",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "Tesoros de princesa · Imagen de ejemplo de Princesas Disney",
+      "titulo": "Tesoros de princesa",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Princesas Disney · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Reino de cuento con castillo, jardines y un puente"
   }
 };

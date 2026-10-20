@@ -9,3 +9,6 @@ Personajes y referencias del tema: . Las marcas y personajes pertenecen a sus ti
 Fuente de titulares: Fredoka. Las fuentes locales de Google Fonts conservan sus licencias SIL OFL en assets/LICENSE-Display.txt y assets/LICENSE-DM-Sans.txt.
 
 La ilustración de portada se generó con ImageGen integrado; archivo assets/hero-v1.webp. Prompt completo en RECURSOS.md.
+
+
+Edición visual 3: assets/celebration-v3.webp, assets/scene-v3.webp y assets/details-v3.webp son recursos originales creados con ImageGen integrado. Los prompts completos están en RECURSOS-VISUALES.md de esta carpeta y en RECURSOS-VISUALES-V3.md del catálogo.

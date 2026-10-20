@@ -1,3 +1,5 @@
+> Edición actual: consulta también RECURSOS-VISUALES-V3.md para los 27 recursos temáticos nuevos. Esta página conserva los créditos de portadas, fuentes y recursos de la primera edición.
+
 # Recursos visuales · Plantillas editables
 
 Modo de generación utilizado: ImageGen integrado. Todos los archivos de proyecto están copiados dentro de sus carpetas; los originales generados se conservan aparte.

@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "bob-esponja",
   "nombre": "Lucas",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Una aventura muy esponjosa",
     "mensaje": "Mis {edadPalabra} años merecen una celebración totalmente coral. Habrá un mar de alegría y un lugar reservado para ti. Trae tus ganas de jugar: los buenos momentos ya están haciendo burbujas.",
     "galeriaTitulo": "Mi cofre de recuerdos",
-    "fraseFinal": "¡La mejor pesca son los buenos amigos!"
+    "fraseFinal": "¡La mejor pesca son los buenos amigos!",
+    "escenarioTitulo": "¡Bienvenidos a nuestro fondo del mar!",
+    "escenarioBajada": "Baja hasta el vecindario más divertido: hay tesoros por descubrir y una gran fiesta a punto de empezar.",
+    "fechaTitulo": "El menú de la diversión",
+    "ubicacionTitulo": "Las coordenadas del tesoro",
+    "rsvpTitulo": "¡Sube a bordo de la fiesta!",
+    "rsvpMensaje": "Tenemos diversión para toda la tripulación. Confirma cuántos vienen a esta aventura submarina."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Un pastel totalmente coral",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "Un pastel muy esponjoso · Imagen de ejemplo de Bob Esponja",
+      "titulo": "Un pastel muy esponjoso",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "Un mar de colores",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "El vecindario submarino · Imagen de ejemplo de Bob Esponja",
+      "titulo": "El vecindario submarino",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "Todos a bordo",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
+      "src": "assets/details-v3.webp",
+      "alt": "El cofre de las sorpresas · Imagen de ejemplo de Bob Esponja",
       "titulo": "El cofre de las sorpresas",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Una ola de dulzura",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Bob Esponja · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Vecindario submarino con casa piña y corales"
   }
 };

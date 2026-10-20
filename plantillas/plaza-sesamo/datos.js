@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "plaza-sesamo",
   "nombre": "Leo",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Hoy aprendemos algo muy bonito",
     "mensaje": "Con la A de amistad y el {edadPalabra} de mi cumpleaños, vamos a llenar esta calle de alegría. Me encantaría que nos acompañaras a contar risas, compartir abrazos y crear nuevos recuerdos.",
     "galeriaTitulo": "Una ventana a mis recuerdos",
-    "fraseFinal": "En esta calle siempre hay lugar para ti."
+    "fraseFinal": "En esta calle siempre hay lugar para ti.",
+    "escenarioTitulo": "Esta calle tiene una gran sorpresa.",
+    "escenarioBajada": "Pasa por las ventanas, descubre nuestros colores y ven a celebrar una nueva historia de amistad.",
+    "fechaTitulo": "El día favorito de nuestra calle",
+    "ubicacionTitulo": "Nos vemos en esta esquina.",
+    "rsvpTitulo": "¡Nuestra puerta está abierta!",
+    "rsvpMensaje": "La mejor parte de crecer es compartirlo. Dinos quiénes tocarán a nuestra puerta para celebrar."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "A de alegría",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "Sabor a celebración · Imagen de ejemplo de Plaza Sésamo",
+      "titulo": "Sabor a celebración",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "C de colores",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "La calle de la amistad · Imagen de ejemplo de Plaza Sésamo",
+      "titulo": "La calle de la amistad",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "M de mesa",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "S de sorpresa",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "D de dulces",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "Un mundo para aprender · Imagen de ejemplo de Plaza Sésamo",
+      "titulo": "Un mundo para aprender",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -96,5 +80,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Amigos de Plaza Sésamo · Todos son bienvenidos"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Calle de miniatura con fachadas y farola verde"
   }
 };

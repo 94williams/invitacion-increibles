@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "barbie",
   "nombre": "Valentina",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "¡Hola, mundo rosa!",
     "mensaje": "Cada año viene con sueños nuevos. El mío es llenar este día de risas, abrazos y recuerdos contigo. Ponte tu mejor sonrisa: la fiesta empieza aquí.",
     "galeriaTitulo": "Momentos de portada",
-    "fraseFinal": "Tu sonrisa es el mejor accesorio."
+    "fraseFinal": "Tu sonrisa es el mejor accesorio.",
+    "escenarioTitulo": "El set de una gran celebración.",
+    "escenarioBajada": "Un poco de rosa, un toque de brillo y toda una historia por estrenar contigo.",
+    "fechaTitulo": "Una fecha de portada",
+    "ubicacionTitulo": "Aquí empieza la pasarela.",
+    "rsvpTitulo": "Tu pase a la celebración",
+    "rsvpMensaje": "Tu nombre merece un lugar en esta edición. Confírmanos cuántas personas vienen contigo."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Un pastel de portada",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "Dulce alta costura · Imagen de ejemplo de Barbie",
+      "titulo": "Dulce alta costura",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "Globos con estilo",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "Nuestro estudio rosa · Imagen de ejemplo de Barbie",
+      "titulo": "Nuestro estudio rosa",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "Una mesa soñada",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "Sorpresas de colección",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Dulces para brillar",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "Detalles para brillar · Imagen de ejemplo de Barbie",
+      "titulo": "Detalles para brillar",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Barbie · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Estudio de moda rosa con arcos y detalles plateados"
   }
 };

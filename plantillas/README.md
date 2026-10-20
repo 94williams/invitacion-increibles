@@ -13,7 +13,7 @@ Edita **datos.js** dentro de la carpeta del tema. Es el único archivo necesario
 - `zonaHoraria` y `zonaEtiqueta`: zona usada para mostrar la hora.
 - `lugar`: nombre, dirección y enlace `maps`.
 - `whatsappContacts`: nombres y teléfonos. Para México, 52 más los diez dígitos del celular.
-- `fotos`: rutas de las cinco fotografías, títulos, historias y encuadres.
+- `fotos`: rutas de las tres imágenes temáticas, títulos, historias y encuadres.
 - `portada.imagenes`: imagen de los personajes o imágenes principales del tema.
 - `textos`: titulares y mensajes. Puedes usar `{nombre}`, `{edad}` y `{edadPalabra}`.
 - `modoDemo`: déjalo en true para una demostración sin mensajes. Cuando tus datos y teléfonos estén listos, cámbialo a false para usar WhatsApp.
@@ -27,4 +27,11 @@ La carpeta `plantillas/` de este repositorio contiene el catálogo completo. Git
 
 Para usar una invitación sola, copia todo el contenido de la carpeta del tema a la raíz de su propio repositorio y configura GitHub Pages desde main / (root).
 
-Las cinco fotografías genéricas y las fuentes se incluyen localmente. Algunos recursos de personajes se cargan desde sus fuentes externas y requieren Internet. Los créditos y prompts están en RECURSOS.md y en el CREDITOS.md de cada diseño.
+Las tres imágenes temáticas y las fuentes se incluyen localmente. Algunos recursos de personajes se cargan desde sus fuentes externas y requieren Internet. Los créditos y prompts están en RECURSOS.md y en el CREDITOS.md de cada diseño.
+
+
+## Edición visual 3
+
+Cada tema incluye un escenario propio, tres imágenes temáticas y tratamientos específicos para fecha, galería, ubicación y confirmación. Las imágenes nuevas son archivos locales. `ambientacion` controla el escenario y `fotos` la galería. Los prompts completos y rutas se documentan en RECURSOS-VISUALES-V3.md.
+
+El catálogo usa vistas locales de los nueve escenarios. Cada carpeta conserva HTML, fuentes, CSS, scripts, assets/ y .nojekyll para publicarse por separado desde la raíz de otro repositorio. No requiere compilación.

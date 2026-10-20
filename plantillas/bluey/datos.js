@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "bluey",
   "nombre": "Mateo",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Este episodio se llama…",
     "mensaje": "Mi cumpleaños. Con juegos inventados, abrazos enormes y esas personas que hacen divertida cualquier tarde. Solo falta una cosa: ¡que vengas tú!",
     "galeriaTitulo": "Mis días favoritos",
-    "fraseFinal": "Las mejores aventuras se juegan en familia."
+    "fraseFinal": "Las mejores aventuras se juegan en familia.",
+    "escenarioTitulo": "Nos vemos en el jardín.",
+    "escenarioBajada": "Hay tardes que se convierten en nuestros episodios favoritos: un juego, una merienda y la mejor compañía.",
+    "fechaTitulo": "Una tarde para guardar",
+    "ubicacionTitulo": "La aventura empieza aquí.",
+    "rsvpTitulo": "Hay un lugar para ti.",
+    "rsvpMensaje": "En nuestro equipo siempre caben más amigos. Cuéntanos quiénes vienen a jugar."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Un pastel para compartir",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "La merienda del jardín · Imagen de ejemplo de Bluey",
+      "titulo": "La merienda del jardín",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "Colores para jugar",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "Una tarde en el porche · Imagen de ejemplo de Bluey",
+      "titulo": "Una tarde en el porche",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "Todos a la mesa",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "Una pequeña sorpresa",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Dulces de aventura",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "Mil maneras de jugar · Imagen de ejemplo de Bluey",
+      "titulo": "Mil maneras de jugar",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Bluey · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Porche y jardín soleado de una casa familiar"
   }
 };

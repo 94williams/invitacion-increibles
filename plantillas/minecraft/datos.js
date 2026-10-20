@@ -1,12 +1,4 @@
-/**
- * DATOS DE LA INVITACIÓN — edita este archivo y recarga la página.
- * nombre / edad / fechaEvento: datos del festejo. Conserva el formato de fecha y zona horaria.
- * fotos: cambia src, titulo, historia y posicion para usar tus propias imágenes.
- * lugar.maps: pega el enlace de Google Maps del lugar.
- * whatsappContacts.phone: escribe 52 seguido de los 10 dígitos del celular mexicano.
- * modoDemo: true muestra una prueba sin enviar nada; false activa WhatsApp con los teléfonos configurados.
- * textos: puedes usar {nombre}, {edad} y {edadPalabra}; se actualizan automáticamente.
- */
+// Datos ficticios de ejemplo. Personaliza este archivo y recarga la invitación.
 window.INVITATION = {
   "theme": "minecraft",
   "nombre": "Nicolás",
@@ -41,42 +33,34 @@ window.INVITATION = {
     "encabezadoMensaje": "Mundo: {nombre}",
     "mensaje": "Ya construimos {edadPalabra} años de risas, descubrimientos y aventuras. Ahora toca reunir al equipo para el siguiente nivel. Trae tu imaginación y muchas ganas de celebrar: aquí empieza nuestra partida.",
     "galeriaTitulo": "Inventario de buenos momentos",
-    "fraseFinal": "El mejor mundo es el que construimos juntos."
+    "fraseFinal": "El mejor mundo es el que construimos juntos.",
+    "escenarioTitulo": "Un mundo nuevo para celebrar.",
+    "escenarioBajada": "Recorre la pradera, reúne buenos recuerdos y encuentra la casa donde empieza nuestra próxima aventura.",
+    "fechaTitulo": "Guarda este punto de la aventura",
+    "ubicacionTitulo": "Tu próximo punto de aparición",
+    "rsvpTitulo": "Tu lugar en la partida",
+    "rsvpMensaje": "La construcción más importante es estar juntos. Confirma tu nombre y cuántos jugadores vienen contigo."
   },
   "fotos": [
     {
-      "src": "assets/photo-1.webp",
-      "alt": "Pastel de cumpleaños de ejemplo con crema y velas",
-      "titulo": "Pastel fabricado",
-      "historia": "Un detalle dulce para empezar una celebración inolvidable.",
+      "src": "assets/celebration-v3.webp",
+      "alt": "Pastel de otro nivel · Imagen de ejemplo de Minecraft",
+      "titulo": "Pastel de otro nivel",
+      "historia": "Un detalle dulce para dar inicio a nuestra celebración.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-2.webp",
-      "alt": "Globos pastel de ejemplo para una celebración",
-      "titulo": "Colores desbloqueados",
-      "historia": "Los colores también cuentan una historia de alegría.",
+      "src": "assets/scene-v3.webp",
+      "alt": "Nuestro mundo por explorar · Imagen de ejemplo de Minecraft",
+      "titulo": "Nuestro mundo por explorar",
+      "historia": "Un escenario de ejemplo que inspira el mundo de nuestra fiesta.",
       "posicion": "50% 50%"
     },
     {
-      "src": "assets/photo-3.webp",
-      "alt": "Mesa de fiesta de ejemplo con flores y platos de colores",
-      "titulo": "Mesa de celebración",
-      "historia": "La mejor mesa es la que compartimos con nuestras personas favoritas.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-4.webp",
-      "alt": "Regalos de ejemplo con papel y cintas pastel",
-      "titulo": "Cofre de sorpresas",
-      "historia": "Las pequeñas sorpresas hacen especial cada momento.",
-      "posicion": "50% 50%"
-    },
-    {
-      "src": "assets/photo-5.webp",
-      "alt": "Galletas y macarons de ejemplo sobre un plato de cerámica",
-      "titulo": "Dulzura +100",
-      "historia": "Los buenos recuerdos también tienen un toque de dulzura.",
+      "src": "assets/details-v3.webp",
+      "alt": "La mesa de las sorpresas · Imagen de ejemplo de Minecraft",
+      "titulo": "La mesa de las sorpresas",
+      "historia": "Los pequeños detalles hacen que cada celebración sea especial.",
       "posicion": "50% 50%"
     }
   ],
@@ -88,5 +72,9 @@ window.INVITATION = {
       }
     ],
     "pie": "Minecraft · El mundo de mi cumpleaños"
+  },
+  "ambientacion": {
+    "src": "assets/scene-v3.webp",
+    "alt": "Paisaje de bloques con pradera y casa de celebración"
   }
 };

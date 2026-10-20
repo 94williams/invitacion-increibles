@@ -1,0 +1,140 @@
+{
+  "result": "passed",
+  "themes": [
+    {
+      "theme": "barbie",
+      "localReferences": 24,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "gallery-section section",
+        "date-section section",
+        "special-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "bluey",
+      "localReferences": 23,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "special-section section",
+        "date-section section",
+        "gallery-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "princesas",
+      "localReferences": 23,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "date-section section",
+        "gallery-section section",
+        "special-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "bella-bestia",
+      "localReferences": 23,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "gallery-section section",
+        "special-section section",
+        "date-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "frozen",
+      "localReferences": 27,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "date-section section",
+        "gallery-section section",
+        "special-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "bob-esponja",
+      "localReferences": 22,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "special-section section",
+        "world-stage",
+        "gallery-section section",
+        "date-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "plaza-sesamo",
+      "localReferences": 22,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "world-stage",
+        "letter section",
+        "special-section section",
+        "date-section section",
+        "gallery-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "ladybug",
+      "localReferences": 22,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "date-section section",
+        "world-stage",
+        "special-section section",
+        "route-section section",
+        "gallery-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "minecraft",
+      "localReferences": 23,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "world-stage",
+        "special-section section",
+        "date-section section",
+        "route-section section",
+        "gallery-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    }
+  ],
+  "uniqueNewImages": 27,
+  "issues": [],
+  "browserVisualReview": "Not available in this session; no browser rendering claimed."
+}
