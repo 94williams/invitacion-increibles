@@ -132,9 +132,37 @@
         "location-section section",
         "rsvp-section section"
       ]
+    },
+    {
+      "theme": "cars",
+      "localReferences": 22,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "letter section",
+        "date-section section",
+        "world-stage",
+        "gallery-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
+    },
+    {
+      "theme": "plim-plim",
+      "localReferences": 23,
+      "galleryImages": 3,
+      "sectionOrder": [
+        "date-section section",
+        "letter section",
+        "world-stage",
+        "gallery-section section",
+        "route-section section",
+        "location-section section",
+        "rsvp-section section"
+      ]
     }
   ],
-  "uniqueNewImages": 27,
+  "uniqueNewImages": 33,
   "issues": [],
   "browserVisualReview": "Not available in this session; no browser rendering claimed."
 }

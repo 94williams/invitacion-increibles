@@ -1,8 +1,8 @@
 {
   "result": "passed",
-  "assertions": 320,
-  "scriptSyntaxFiles": 36,
-  "templates": 9,
+  "assertions": 387,
+  "scriptSyntaxFiles": 44,
+  "templates": 11,
   "scope": "Editable data, metadata, dates, calendar, generic images, hero images, contact labels, demo confirmation without network or messages, optional live WhatsApp with a stubbed window, gallery dialogs, unique interactions and reduced motion.",
   "visualBrowserReview": "Not available in this session; tests use a simulated DOM."
 }

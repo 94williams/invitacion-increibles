@@ -1,6 +1,6 @@
-# Nueve plantillas de invitaciones
+# Once plantillas de invitaciones
 
-Colección de Barbie, Bluey, Princesas Disney, La Bella y la Bestia, Frozen, Bob Esponja, Plaza Sésamo, Ladybug y Minecraft.
+Colección de Barbie, Bluey, Princesas Disney, La Bella y la Bestia, Frozen, Bob Esponja, Plaza Sésamo, Ladybug, Minecraft, Cars / Rayo McQueen y Plim Plim.
 
 Abre **index.html** para elegir un diseño. Cada carpeta es autónoma: incluye HTML, CSS, JavaScript, imágenes genéricas y fuentes con sus licencias. Puedes copiarla a otro repositorio sin cambiar sus rutas. No necesita npm ni compilación.
 
@@ -35,3 +35,10 @@ Las tres imágenes temáticas y las fuentes se incluyen localmente. Algunos recu
 Cada tema incluye un escenario propio, tres imágenes temáticas y tratamientos específicos para fecha, galería, ubicación y confirmación. Las imágenes nuevas son archivos locales. `ambientacion` controla el escenario y `fotos` la galería. Los prompts completos y rutas se documentan en RECURSOS-VISUALES-V3.md.
 
 El catálogo usa vistas locales de los nueve escenarios. Cada carpeta conserva HTML, fuentes, CSS, scripts, assets/ y .nojekyll para publicarse por separado desde la raíz de otro repositorio. No requiere compilación.
+
+
+## Cars y Plim Plim
+
+La colección ahora incluye once diseños. Cars / Rayo McQueen y Plim Plim se muestran directamente, sin botón de descubrimiento. Los nuevos recursos y los prompts de ImageGen se documentan en RECURSOS-VISUALES.md dentro de cada carpeta. Ambas tienen datos ficticios editables en datos.js y modoDemo activo.
+
+Ladybug incluye una corrección de contraste en fecha, contador y botón de calendario.

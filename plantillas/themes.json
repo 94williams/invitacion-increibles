@@ -52,5 +52,17 @@
     "name": "Minecraft",
     "interaction": "Mesa para fabricar una fiesta",
     "motion": "Construcción por bloques y desbloqueo de logros"
+  },
+  {
+    "key": "cars",
+    "name": "Cars · Rayo McQueen",
+    "interaction": "Acceso directo al equipo de la celebración",
+    "motion": "Semáforo de salida y entradas diagonales de pista"
+  },
+  {
+    "key": "plim-plim",
+    "name": "Plim Plim",
+    "interaction": "Acceso directo a la función de cumpleaños",
+    "motion": "Telón que se abre, banderines y formas suaves"
   }
 ]
