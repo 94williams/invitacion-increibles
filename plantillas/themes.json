@@ -1,0 +1,56 @@
+[
+  {
+    "key": "barbie",
+    "name": "Barbie",
+    "interaction": "Pasarela de recuerdos",
+    "motion": "Destellos de cámara y recortes editoriales"
+  },
+  {
+    "key": "bluey",
+    "name": "Bluey",
+    "interaction": "Keepy-uppy con un globo",
+    "motion": "Saltitos suaves, globo y formas de jardín"
+  },
+  {
+    "key": "princesas",
+    "name": "Princesas Disney",
+    "interaction": "Carta con sello del reino",
+    "motion": "Páginas que se abren y polvo de estrellas"
+  },
+  {
+    "key": "bella-bestia",
+    "name": "La Bella y la Bestia",
+    "interaction": "Rosa bajo una campana de cristal",
+    "motion": "Luz de velas, reflejos dorados y pétalos"
+  },
+  {
+    "key": "frozen",
+    "name": "Frozen",
+    "interaction": "Un deseo de nieve",
+    "motion": "Cristales que se forman, aurora y nieve ligera"
+  },
+  {
+    "key": "bob-esponja",
+    "name": "Bob Esponja",
+    "interaction": "Burbujas para descubrir un mensaje",
+    "motion": "Burbujas ascendentes, medusas y olas"
+  },
+  {
+    "key": "plaza-sesamo",
+    "name": "Plaza Sésamo",
+    "interaction": "Ventanas de letras y números",
+    "motion": "Letras de cartón, ventanas y bloques que encajan"
+  },
+  {
+    "key": "ladybug",
+    "name": "Ladybug",
+    "interaction": "Amuleto de la buena suerte",
+    "motion": "Trayectoria del yo-yo, lunares y revelado de misión"
+  },
+  {
+    "key": "minecraft",
+    "name": "Minecraft",
+    "interaction": "Mesa para fabricar una fiesta",
+    "motion": "Construcción por bloques y desbloqueo de logros"
+  }
+]
