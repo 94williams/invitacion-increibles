@@ -1,0 +1,23 @@
+/* A personal movie poster, Dash's route and end credits. */
+body.experience.theme-increibles .cover-art{opacity:.32}
+body.experience.theme-increibles .aldo-poster{position:absolute;z-index:2;right:5%;bottom:30px;width:38%;height:calc(100% - 55px);max-height:660px;margin:0;display:flex;align-items:flex-end;justify-content:center;pointer-events:none}
+.aldo-poster img{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 15px 32px #0008)}
+.aldo-poster figcaption{position:absolute;bottom:0;left:0;right:0;padding:14px 8px;background:linear-gradient(transparent,#14161cdd);text-align:center;font:600 8px/1.5 var(--sans);letter-spacing:2px;color:#ffe0a0}
+.aldo-emblem{position:absolute;right:0;top:26px;display:flex;align-items:center;justify-content:center;gap:3px;width:61px;height:61px;border:2px solid #f2b54d;border-radius:50%;background:#9e272b;color:#fce3b2;font:700 36px 'Incredible Display',sans-serif;box-shadow:0 0 0 5px #f2b54d18;transform:rotate(7deg)}
+.aldo-emblem small{font:700 15px 'Incredible Display',sans-serif;align-self:flex-end;margin-bottom:14px}
+body.experience.theme-increibles .birthday-seal{display:none}
+body.experience.theme-increibles .movie-tagline{font:700 25px/1.05 'Incredible Display',sans-serif;letter-spacing:1.2px;text-transform:uppercase;color:#f2b54d;margin:18px 0 4px;max-width:390px}
+body.experience.theme-increibles .itinerary-grid{position:relative;padding-left:22px}
+.dash-route{position:absolute;left:1px;top:24px;bottom:24px;width:3px;border-radius:2px;background:linear-gradient(#b83230,#f2b54d 50%,#b83230);opacity:.85;pointer-events:none}
+.dash-route:before,.dash-route:after{content:'';position:absolute;left:-4px;top:0;width:11px;height:11px;border:1px solid #f2b54d;background:#14161c;border-radius:50%}
+.dash-route:after{top:auto;bottom:0}
+.dash-route i{position:absolute;left:-1px;top:0;width:5px;height:32px;border-radius:50%;background:#ffe4a5;box-shadow:0 0 15px 5px #f2b54d60;opacity:0}
+.movie-credits{max-width:1050px;padding:55px 30px;margin:0 auto 55px;border-block:1px solid #f2b54d36;text-align:center}
+.credits-kicker{font:500 8px/1.8 var(--sans);letter-spacing:2px;color:#ba9f71;margin-bottom:23px}
+body.experience.theme-increibles .movie-credits h2{font:700 clamp(35px,4.5vw,58px)/1 'Incredible Display',sans-serif;text-transform:uppercase;color:#f2b54d;letter-spacing:1px}
+.credits-cast{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin:33px 0}
+.credits-cast p{margin:0}.credits-cast small{display:block;font:500 7px/1.7 var(--sans);letter-spacing:2px;color:#a5a7ae;margin-bottom:10px}
+.credits-cast strong{font:700 25px/1 'Incredible Display',sans-serif;letter-spacing:.7px;text-transform:uppercase;color:#f6efdd}
+.credits-ending{font:500 11px/1.7 var(--sans);color:#a5a7ae;letter-spacing:.5px}
+@media(prefers-reduced-motion:no-preference){.chapter-visible .dash-route i{animation:dash-route-run 1900ms cubic-bezier(.1,.65,.3,1) 100ms both}.movie-credits.chapter-visible .credits-cast p{animation:credits-rise 850ms cubic-bezier(.2,.7,.2,1) backwards}.movie-credits.chapter-visible .credits-cast p:nth-child(2){animation-delay:140ms}.movie-credits.chapter-visible .credits-cast p:nth-child(3){animation-delay:280ms}@keyframes dash-route-run{0%{top:0;opacity:0}10%{opacity:1}90%{opacity:1}100%{top:calc(100% - 32px);opacity:0}}@keyframes credits-rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}}
+@media(max-width:700px){body.experience.theme-increibles .cover-copy{padding-top:345px}body.experience.theme-increibles .cover-frame{min-height:820px}body.experience.theme-increibles .aldo-poster{width:245px;height:305px;top:18px;bottom:auto;right:calc(50% - 122px)}.aldo-poster figcaption{font-size:6px;padding:11px 4px;letter-spacing:1.4px}.aldo-emblem{width:45px;height:45px;right:-18px;top:18px;font-size:27px}.aldo-emblem small{font-size:12px;margin-bottom:10px}body.experience.theme-increibles .movie-tagline{font-size:21px;letter-spacing:.7px;max-width:280px;margin-top:15px}body.experience.theme-increibles .itinerary-grid{padding-left:17px}.dash-route{width:2px}.movie-credits{padding:35px 14px;margin-bottom:35px}.credits-kicker{font-size:6px;letter-spacing:1.1px;margin-bottom:20px}body.experience.theme-increibles .movie-credits h2{font-size:35px}.credits-cast{grid-template-columns:1fr;gap:23px;margin:28px 0}.credits-cast small{font-size:6px;margin-bottom:6px}.credits-cast strong{font-size:25px}.credits-ending{font-size:10px}}
