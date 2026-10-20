@@ -1,0 +1,41 @@
+/* Motion direction: quick cinematic cuts, impact and a single energy scan. */
+@media(prefers-reduced-motion:no-preference){
+body.experience.theme-increibles.js-motion .reveal,
+body.experience.theme-increibles.js-motion .text-reveal,
+body.experience.theme-increibles.js-motion .text-sequence .text-part{transition:none;animation:none;transform:none;filter:none}
+body.experience.theme-increibles.js-motion .reveal:not(.visible){opacity:0;transform:none;clip-path:inset(0 0 0 100%)}
+body.experience.theme-increibles.js-motion .reveal.visible{opacity:1;transform:none;clip-path:none;animation:inc-mission-cut 520ms cubic-bezier(.18,.8,.2,1) var(--motion-delay,0ms) backwards}
+body.experience.theme-increibles.js-motion .story-copy.reveal.visible,
+body.experience.theme-increibles.js-motion .section-heading.reveal.visible,
+body.experience.theme-increibles.js-motion .rsvp-heading.reveal.visible{animation-name:inc-report-open;animation-duration:440ms}
+body.experience.theme-increibles.js-motion .route-card.reveal.visible{animation-name:inc-operation-enter;animation-duration:480ms}
+body.experience.theme-increibles.js-motion .memory.reveal.visible{animation-name:inc-film-shutter;animation-duration:600ms}
+body.experience.theme-increibles.js-motion .memory:nth-child(2){--motion-delay:70ms}
+body.experience.theme-increibles.js-motion .memory:nth-child(3){--motion-delay:140ms}
+body.experience.theme-increibles.js-motion .memory:nth-child(4){--motion-delay:210ms}
+body.experience.theme-increibles.js-motion .memory:nth-child(5){--motion-delay:280ms}
+body.experience.theme-increibles.js-motion .text-reveal:not(.text-visible),
+body.experience.theme-increibles.js-motion .text-sequence:not(.text-visible) .text-part{opacity:0;transform:none}
+body.experience.theme-increibles.js-motion .text-reveal.text-visible,
+body.experience.theme-increibles.js-motion .text-sequence.text-visible .text-part{opacity:1;transform:none;animation:inc-title-scan 430ms cubic-bezier(.16,.8,.2,1) var(--text-delay,0ms) backwards}
+body.experience.theme-increibles.js-motion .text-sequence.text-visible em.text-part{animation-delay:100ms}
+body.experience.theme-increibles.js-motion .cover h1.text-visible{animation:inc-title-impact 580ms cubic-bezier(.16,.8,.2,1) 100ms backwards}
+body.experience.theme-increibles.js-motion .cover-art{animation:inc-camera-approach 1600ms cubic-bezier(.2,.7,.2,1) backwards!important;transform-origin:65% 35%}
+body.experience.theme-increibles .identity-card{overflow:hidden}
+body.experience.theme-increibles.js-motion .identity-card.visible:after{content:'';pointer-events:none;position:absolute;inset:0 auto 0 0;width:2px;background:#f2b54d;box-shadow:0 0 18px 5px #f2b54d38;animation:inc-energy-scan 1050ms ease-out 180ms both}
+body.experience.theme-increibles .countdown-inner{position:relative}
+body.experience.theme-increibles.js-motion .countdown-inner.visible:after{content:'';pointer-events:none;position:absolute;bottom:-14px;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#ffe5ac,transparent);transform-origin:left;animation:inc-energy-rule 850ms cubic-bezier(.2,.8,.2,1) 250ms both}
+body.experience.theme-increibles .button:after{display:none}
+@media(hover:hover){body.experience.theme-increibles .button:hover{transform:translateY(-1px);box-shadow:0 0 0 1px #f2b54d70,0 5px 18px #b8323030;transition:transform 140ms,box-shadow 140ms}}
+body.experience.theme-increibles .button:active{transform:scale(.975)}
+body.experience.theme-increibles.js-motion .reveal:focus-within{animation:none!important;opacity:1!important;clip-path:none!important;transform:none!important}
+@keyframes inc-mission-cut{0%{opacity:0;clip-path:inset(0 0 0 100%)}12%{opacity:1}100%{opacity:1;clip-path:inset(0 0 0 0)}}
+@keyframes inc-report-open{0%{opacity:0;clip-path:inset(0 100% 0 0)}10%{opacity:1}100%{opacity:1;clip-path:inset(0)}}
+@keyframes inc-operation-enter{0%{opacity:0;clip-path:polygon(0 0,0 0,0 100%,0 100%);transform:translateX(-18px)}14%{opacity:1}100%{opacity:1;clip-path:polygon(0 0,100% 0,100% 100%,0 100%);transform:none}}
+@keyframes inc-film-shutter{0%{opacity:1;clip-path:inset(50% 0 50% 0);filter:grayscale(1)}65%{clip-path:inset(0);filter:grayscale(.65)}100%{opacity:1;clip-path:inset(0);filter:none}}
+@keyframes inc-title-scan{0%{opacity:0;clip-path:inset(0 100% 0 0);transform:translateX(-9px)}15%{opacity:1}100%{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes inc-title-impact{0%{opacity:0;transform:scale(1.09)}18%{opacity:1}65%{transform:scale(.992)}100%{opacity:1;transform:scale(1)}}
+@keyframes inc-camera-approach{from{transform:scale(1.07)}to{transform:scale(1)}}
+@keyframes inc-energy-scan{0%{left:0;opacity:0}18%{opacity:.8}85%{opacity:.7}100%{left:100%;opacity:0}}
+@keyframes inc-energy-rule{0%{transform:scaleX(0);opacity:0}30%{opacity:.75}100%{transform:scaleX(1);opacity:.35}}
+}
